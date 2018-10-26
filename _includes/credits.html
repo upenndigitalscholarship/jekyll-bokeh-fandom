@@ -1,0 +1,80 @@
+  <ul>
+    {% if site.data.project.project_sponsor %}
+      <li>
+        <strong>Sponsor{% if site.data.project.project_sponsor.size > 1 %}s{% endif %}</strong>
+        <ul>
+          {% for ps in site.data.project.project_sponsor %}
+            <li>
+              {{ ps.name }}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+
+    {% if site.data.project.principal_investigator %}
+      <li>
+        <strong>Principal Investigator{% if site.data.project.principal_investigator.size > 1 %}s{% endif %}</strong>
+        <ul>
+          {% for ps in site.data.project.principal_investigator %}
+            <li>
+              {{ ps.name }}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+
+    {% if site.data.project.principal_developer %}
+      <li>
+        <strong>Principal Developer{% if site.data.project.principal_developer.size > 1 %}s{% endif %}</strong>
+        <ul>
+          {% for ps in site.data.project.principal_developer %}
+            <li>
+              {{ ps.name }}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+
+    {% if site.data.project.project_developer %}
+      <li>
+        <strong>Project Developer{% if site.data.project.project_developer.size > 1 %}s{% endif %}</strong>
+        <ul>
+          {% for ps in site.data.project.project_developer %}
+            <li>
+              {{ ps.name }}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+
+    {% if site.data.project.project_research_assistant %}
+      <li>
+        <strong>Student RA{% if site.data.project.project_research_assistant.size > 1 %}s{% endif %}</strong>
+        <ul>
+          {% for ps in site.data.project.project_research_assistant %}
+            <li>
+              {{ ps.name }}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+
+    {% if site.data.project.project_consultant %}
+      <li>
+        <strong>Consultant{% if site.data.project.project_consultant.size > 1 %}s{% endif %}</strong>
+        <ul>
+          {% for ps in site.data.project.project_consultant %}
+            <li>
+              {{ ps.name }}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+  </ul>
+

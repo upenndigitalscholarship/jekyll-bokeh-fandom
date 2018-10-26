@@ -1,0 +1,45 @@
+<div class="py-1 mb-1">
+    <ul class="list-reset lh-condensed">
+
+        {% if site.data.project.project_title %}
+          <li>Visualizations from <em>{{ site.data.project.project_title }}{% if site.data.project.project_subtitle %}: {{ site.data.project.project_subtitle }}{% endif %}</em></li>
+        {% endif %}
+
+        {% if site.data.project.project_sponsor %}
+          <li>
+              <strong>Sponsor{% if site.data.project.project_sponsor.size > 1 %}s{% endif %}</strong>:
+              {% for ps in site.data.project.project_sponsor %}
+                {{ ps.name }}
+                {% if forloop.last == false %}
+                  and
+                {% endif %}
+              {% endfor %}
+          </li>
+        {% endif %}
+
+        {% if site.data.project.principal_investigator %}
+          <li>
+              <strong>Principal Investigator{% if site.data.project.principal_investigator.size > 1 %}s{% endif %}</strong>:
+              {% for pi in site.data.project.principal_investigator %}
+                {{ pi.name }}
+                {% if forloop.last == false %}
+                  and
+                {% endif %}
+              {% endfor %}
+          </li>
+        {% endif %}
+
+        {% if site.data.project.project_developer %}
+          <li>
+              <strong>Principal Developer{% if site.data.project.principal_developer.size > 1 %}s{% endif %}</strong>:
+              {% for pd in site.data.project.principal_developer %}
+                {{ pd.name }}
+                {% if forloop.last == false %}
+                  and
+                {% endif %}
+              {% endfor %}
+          </li>
+        {% endif %}
+
+    </ul>
+</div>

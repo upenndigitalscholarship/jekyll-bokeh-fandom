@@ -1,0 +1,3 @@
+baseurl: "/_fandom-test"
+destination: "/var/www/html/_fandom-test/"
+url: "http://138.197.13.28"
