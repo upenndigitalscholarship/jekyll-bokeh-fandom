@@ -7,4 +7,19 @@ order: 2
 permalink: /notes/
 ---
 
+
+TO DO 
+
+Scripts from three franchises and reuse graph
+
+Display in line fan works
+
+Correlate reuse with other factor (sentiment, scene, lingusistic data)
+
+Contribute scripts
+
+Write text
+
+
+
 [[Here is a new page.]]
