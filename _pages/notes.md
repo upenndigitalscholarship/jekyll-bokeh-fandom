@@ -4,7 +4,7 @@ title: "Notes"
 display_site_title: true
 display_page_title: true
 order: 2
-permalink: /the-force-awakens/
+permalink: /notes/
 ---
 
 [[Here is a new page.]]
