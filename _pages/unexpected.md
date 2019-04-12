@@ -1,11 +1,11 @@
 ---
 layout: vis
-title: "The Force Awakens"
+title: "The Hobbit: An Unexpected Journey"
 display_site_title: true
 display_page_title: true
 order: 2
-vis_include: star_wars_reuse.html
-permalink: /the-force-awakens/
+vis_include: unexpected_reuse.html
+permalink: /an-unexpected-journey/
 ---
 
 [[Visualzation page text here.]]
