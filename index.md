@@ -1,5 +1,5 @@
 --- 
-layout: vis
+layout: novis
 display_site_title: true
 ---
 
