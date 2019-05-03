@@ -19,7 +19,12 @@
         {% if my_page.title and my_page.hidden == nil %}
         <li class="inline-block block-lg text-right ml-1 ml-lg-0">
           <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
-            {{ my_page.title }}
+              {% if my_page.short_title %}
+                  {{ my_page.short_title }}
+              {% else %}
+                  {{ my_page.title }}
+              {% endif %}
+
           </a>
         </li>
         {% endif %}
