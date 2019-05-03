@@ -1,6 +1,6 @@
 ---
 layout: vis
-title: "Fellowship of the Ring"
+title: "LOTR: Fellowship of the Ring"
 display_site_title: true
 display_page_title: true
 order: 2

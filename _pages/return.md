@@ -1,6 +1,6 @@
 ---
 layout: vis
-title: "Return of the King"
+title: "LOTR: The Return of the King"
 display_site_title: true
 display_page_title: true
 order: 4

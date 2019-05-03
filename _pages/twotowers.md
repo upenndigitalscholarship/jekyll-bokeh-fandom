@@ -1,6 +1,6 @@
 ---
 layout: vis
-title: "The Two Towers"
+title: "LOTR: The Two Towers"
 display_site_title: true
 display_page_title: true
 order: 3
