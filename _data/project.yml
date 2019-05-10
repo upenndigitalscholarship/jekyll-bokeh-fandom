@@ -22,7 +22,7 @@ project_developer:
 project_research_assistant:
  - name: Nathan
  
-maintaining_institutions: 
+maintaining_institution: 
  - name: "The Price Lab for Digital Humanities"
    url: https://pricelab.sas.upenn.edu/
  - name: "Penn Libraries Digital Scholarship"
