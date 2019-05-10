@@ -1,6 +1,7 @@
 ---
 layout: vis
 title: "The Hobbit: The Desolation of Smaug"
+short_title: "Hobbit: Desolation of Smaug"
 display_site_title: true
 display_page_title: true
 order: 6
